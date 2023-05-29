@@ -10,3 +10,13 @@ function genererCouleurAleatoire() {
     return couleur;
 }
  ```
+ ### Manier la plus sipmle
+ Si nous voulons facilter le code, de coder quelques lignes 
+ de recuperer les elements sur HTML et de valider le button aussi
+ avec le déclenchemenet d'evenement AddEventListener
+ ```js
+ document.body.style.backgroundColor = genererCouleurAleatoire();
+  ```
+ ```js
+ document.getElementById('monElement').style.backgroundColor = genererCouleurAleatoire();
+ ```
