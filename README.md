@@ -10,7 +10,7 @@ function genererCouleurAleatoire() {
     return couleur;
 }
  ```
- ### Manier la plus sipmle
+ ### Simplifier la logique de code
  Si nous voulons facilter le code, de coder quelques lignes 
  de recuperer les elements sur HTML et de valider le button aussi
  avec le déclenchemenet d'evenement AddEventListener
